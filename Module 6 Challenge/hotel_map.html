@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_43b694999b32eaa4780ac471b58b5eee {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_43b694999b32eaa4780ac471b58b5eee" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_43b694999b32eaa4780ac471b58b5eee = L.map(
+                "map_43b694999b32eaa4780ac471b58b5eee",
+                {
+                    center: [37.09, -95.71],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3da8766b96b396d12c2ce4d7e5d27c19 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3da8766b96b396d12c2ce4d7e5d27c19.addTo(map_43b694999b32eaa4780ac471b58b5eee);
+        
+    
+            var marker_e98a99197cd89103f357d56dbe796b60 = L.marker(
+                [40.7128, -74.0059],
+                {
+}
+            ).addTo(map_43b694999b32eaa4780ac471b58b5eee);
+        
+    
+            var icon_a34f7168941b2f523041d5f4a6ce3424 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e98a99197cd89103f357d56dbe796b60.setIcon(icon_a34f7168941b2f523041d5f4a6ce3424);
+        
+    
+        var popup_d50b383234ce9410b8473b2f2162ae44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3671a90f1943d6844efc17d9338c66c1 = $(`<div id="html_3671a90f1943d6844efc17d9338c66c1" style="width: 100.0%; height: 100.0%;"><b>New York</b><br>Hotel: Hotel New York<br>Country: USA</div>`)[0];
+                popup_d50b383234ce9410b8473b2f2162ae44.setContent(html_3671a90f1943d6844efc17d9338c66c1);
+            
+        
+
+        marker_e98a99197cd89103f357d56dbe796b60.bindPopup(popup_d50b383234ce9410b8473b2f2162ae44)
+        ;
+
+        
+    
+    
+            var marker_f455e7d20dc28d663a39be1fbf917006 = L.marker(
+                [41.8781, -87.6298],
+                {
+}
+            ).addTo(map_43b694999b32eaa4780ac471b58b5eee);
+        
+    
+            var icon_ac491b0d372fdcd817680a6727be1504 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f455e7d20dc28d663a39be1fbf917006.setIcon(icon_ac491b0d372fdcd817680a6727be1504);
+        
+    
+        var popup_c23a9f068981cb5052187f519e7a283d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f096b3c0418d98cfdb5d23e9d2a2a876 = $(`<div id="html_f096b3c0418d98cfdb5d23e9d2a2a876" style="width: 100.0%; height: 100.0%;"><b>Chicago</b><br>Hotel: Hotel Chicago<br>Country: USA</div>`)[0];
+                popup_c23a9f068981cb5052187f519e7a283d.setContent(html_f096b3c0418d98cfdb5d23e9d2a2a876);
+            
+        
+
+        marker_f455e7d20dc28d663a39be1fbf917006.bindPopup(popup_c23a9f068981cb5052187f519e7a283d)
+        ;
+
+        
+    
+    
+            var marker_b6a777a7efa1cf909add4b8ead3be00d = L.marker(
+                [29.7604, -95.3698],
+                {
+}
+            ).addTo(map_43b694999b32eaa4780ac471b58b5eee);
+        
+    
+            var icon_4e159e3400fa4ca637dc4f797841856a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b6a777a7efa1cf909add4b8ead3be00d.setIcon(icon_4e159e3400fa4ca637dc4f797841856a);
+        
+    
+        var popup_4340d0462252e9b3adbdb8f845651f79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_481b408fbd46dcaa5d16c5e613c8e33e = $(`<div id="html_481b408fbd46dcaa5d16c5e613c8e33e" style="width: 100.0%; height: 100.0%;"><b>Houston</b><br>Hotel: Hotel Houston<br>Country: USA</div>`)[0];
+                popup_4340d0462252e9b3adbdb8f845651f79.setContent(html_481b408fbd46dcaa5d16c5e613c8e33e);
+            
+        
+
+        marker_b6a777a7efa1cf909add4b8ead3be00d.bindPopup(popup_4340d0462252e9b3adbdb8f845651f79)
+        ;
+
+        
+    
+    
+            var marker_6531db6e9d513f22e0099488fc18884c = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(map_43b694999b32eaa4780ac471b58b5eee);
+        
+    
+            var icon_fb3d19822deb9a24486816224f9d7294 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6531db6e9d513f22e0099488fc18884c.setIcon(icon_fb3d19822deb9a24486816224f9d7294);
+        
+    
+        var popup_9d04966dd9eee70fd3cc5899ceb5c5a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02227cb44d2c0e6d74233c2fcc354af4 = $(`<div id="html_02227cb44d2c0e6d74233c2fcc354af4" style="width: 100.0%; height: 100.0%;"><b>Los Angeles</b><br>Hotel: Hotel Los Angeles<br>Country: USA</div>`)[0];
+                popup_9d04966dd9eee70fd3cc5899ceb5c5a9.setContent(html_02227cb44d2c0e6d74233c2fcc354af4);
+            
+        
+
+        marker_6531db6e9d513f22e0099488fc18884c.bindPopup(popup_9d04966dd9eee70fd3cc5899ceb5c5a9)
+        ;
+
+        
+    
+    
+            var marker_13c5551f0114136dded84ea6bbb07e81 = L.marker(
+                [41.2524, -95.998],
+                {
+}
+            ).addTo(map_43b694999b32eaa4780ac471b58b5eee);
+        
+    
+            var icon_2317344de7c0bfa18acf6c8f0ebe6707 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_13c5551f0114136dded84ea6bbb07e81.setIcon(icon_2317344de7c0bfa18acf6c8f0ebe6707);
+        
+    
+        var popup_0612eb6577ff08cff8d668db8533f786 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5e4dda3c57c583d05378eeeff92a887 = $(`<div id="html_a5e4dda3c57c583d05378eeeff92a887" style="width: 100.0%; height: 100.0%;"><b>Omaha</b><br>Hotel: Hotel Omaha<br>Country: USA</div>`)[0];
+                popup_0612eb6577ff08cff8d668db8533f786.setContent(html_a5e4dda3c57c583d05378eeeff92a887);
+            
+        
+
+        marker_13c5551f0114136dded84ea6bbb07e81.bindPopup(popup_0612eb6577ff08cff8d668db8533f786)
+        ;
+
+        
+    
+</script>
+</html>
